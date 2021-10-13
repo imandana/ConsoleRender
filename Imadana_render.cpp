@@ -92,6 +92,11 @@ int main()
 	pucuk = 1;
 	draw_triangle(initXPos, initYPos, initXPos + lengthAlas , initYPos , initXPos + lengthAlas*0.5, (tinggi*pucuk) + initYPos );
 
+	//MUST!!!
+	draw_line(1 , 1, 38, 24);
+	draw_line(38, 1, 1, 24);
+	//MUST
+
 	char myText[]  = "Created by Imandana Rahimaswara\n Ohayou Gozaimasu..."; 
 	draw_text(myText, strlen( myText ), 45, 10);
 
